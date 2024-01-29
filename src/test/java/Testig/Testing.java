@@ -33,7 +33,7 @@ public class Testing extends BaseClass {
             WebElement label = radioButton.findElement(By.cssSelector(".css-76zvg2"));
             if (label.getText().equals("Govt. Employee")) {
                 radioButton.click();
-                break; // No need to continue once found and clicked
+                break;
             }
         }
     }
